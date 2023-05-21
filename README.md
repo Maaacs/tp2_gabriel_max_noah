@@ -5,7 +5,7 @@ Gabriel Pacheco, Max Souza, Noah Diunkz
 
 # Pré-requisitos
 
-- artigo.csv precisa estar descompactado e na pasta Arquivo.
+- artigo.csv precisa estar descompactado e na pasta raiz.
 - os arquivos estão organizados por diretórios, então ao executar fora das pastas é importante passar o path. 
 
 ------------------------------------------------------------------
@@ -18,7 +18,7 @@ Os comandos abaixo já estão organizados para serem executados dentro do diret�
 
   ```
   g++ B+Tree/IndicePrimario.cpp B+Tree/IndiceSecundario.cpp Implementacao/hash.cpp Implementacao/upload.cpp -o upload
-  ./upload Arquivo/artigo.csv
+  ./upload artigo.csv
   ```
 
 - Para rodar findrec.cpp
